@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100;0,400;0,600;1,400&family=Noto+Sans:wght@100;400&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outifit', sans-serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    max-width: 400px;
+}
+
+
+
+
+section {
+    border-radius: 1rem;
+    background-color: hsl(216, 50%, 16%);
+    padding: 2rem;
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.conteudo_principal {
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    font-family: 'Outifit', sans-serif;
+    font-weight: 800;
+
+}
+
+.conteudo_texto {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outifit', sans-serif;
+    font-size: 18px;
+    margin-bottom: 29px;
+    font-weight: 500;
+}
+
+
+.eth_img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.conteudo_nft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+
+.conteudo_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%)
+}
+
+.conteudo_right {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 300;
+}
+
+.conteudo_rodape {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    font-size: 15px;
+}
+
+.img_rodape {
+    height: 40px;
+    border: 1px solid;
+    border-radius: 100%;
+
+}
+
+span {
+    color: hsl(215, 51%, 70%);
+
+}
